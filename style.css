@@ -1,0 +1,100 @@
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background: rgb(230, 231, 230);
+}
+
+
+.tab_main{
+    background: black;
+    position: absolute;
+    width: 100%;
+    height: 36px;
+}
+
+.main_btn{
+    display: flex;
+    margin: 0px;
+    float: right;
+    margin-right: 10px;
+    height: auto;
+    position: relative;
+   
+
+}
+
+.btn{
+    color: rgb(177, 192, 177);
+    font-size: 23px;
+    text-decoration: none;
+    list-style: none;
+    padding: 5px;
+    margin: 0;
+    height: auto;
+    background: rgb(36, 141, 36);
+    text-align: center;
+    width: 150px;
+}
+
+.btn:hover{
+    background: rgb(83, 131, 12);
+    cursor: pointer;
+}
+
+.cate_btn{
+    display: none;
+}
+
+.cate:hover .cate_btn{
+    display: block;
+}
+
+.conta_btn{
+    display: none;
+}
+
+.conta:hover .conta_btn{
+    display: block;
+}
+
+.thin_btn{
+    display: none;
+}
+
+.thin:hover .thin_btn{
+    display: block;
+}
+
+.acc_btn{
+    display: none;
+}
+
+.acc:hover .acc_btn{
+    display: block;
+}
+
+.sub_btn{
+    position: absolute;
+    padding-left: 0px;
+    margin-top: 4px; 
+}
+
+.btn_s{
+    color: rgb(177, 192, 177);
+    font-size: 23px;
+    text-decoration: none;
+    list-style: none;
+    height: auto;
+    background: rgb(27, 109, 27);
+    text-align: center;
+    width: 150px;
+    
+}
+
+.btn_s:hover{
+    background: rgb(83, 131, 12);
+    cursor: pointer;
+}
+
+
